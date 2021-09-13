@@ -1,0 +1,91 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    outline: 0 auto;
+}
+.Wepper_area{
+    background-color: aquamarine;
+    display: block;
+    padding: 70px;
+
+}
+.content_area{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(53, 46, 46);
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px gray;
+}
+.content{
+    height: 350px;
+    width: 600px;
+}
+
+.content_area h1{
+    color: aquamarine;
+    border-left: 2px solid aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+.content_left{
+    float: left;
+    height: 300px;
+    width: 30px;
+    margin-top: 130px;
+    margin-left: 50px;
+
+}
+.content_right{
+    float: right;
+    height: 300px;
+    
+}
+.content_area form{
+    margin-left: 70px;
+    margin: 50px;
+    padding: 15px;
+    
+}
+.content_area form input{
+    color: #fff;
+    background-color:  rgb(53, 46, 46);
+    border: none;
+    font-size: 15px;
+    margin: 20px;
+    text-align: center;
+    border-bottom: 2px solid #617575;
+}
+/* chenge placeholder colour*/
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.content_right select{
+    margin: 20px;
+    width: 200px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.content_right button{
+    border: none;
+    padding: 7px;
+    margin-left: 15px;
+    border-radius: 2px;
+    background-color: aquamarine;
+    font-size: 17px;
+    font-variant-caps: all-small-caps;
+    cursor: pointer;
+}
+/**/
+
+/*******/
+.result{
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-size: 22px;
+    margin-right: 100px;
+}
+
