@@ -44,6 +44,7 @@
 .content_area form{
     margin-left: 70px;
     margin: 50px;
+    margin-bottom: 0px;
     padding: 15px;
     
 }
@@ -81,7 +82,6 @@
 /*******/
 .result{
     height: 50px;
-    width: 600px;
     text-align: center;
     color: #fff;
     font-style: italic;
